@@ -1,8 +1,8 @@
-<?php namespace Maatwebsite\Excel\Readers;
+<?php namespace Bhargavaaaa\Excel\Readers;
 
 use Closure;
-use Maatwebsite\Excel\Excel;
-use Maatwebsite\Excel\Exceptions\LaravelExcelException;
+use Bhargavaaaa\Excel\Excel;
+use Bhargavaaaa\Excel\Exceptions\LaravelExcelException;
 
 /**
  *
@@ -10,9 +10,9 @@ use Maatwebsite\Excel\Exceptions\LaravelExcelException;
  *
  * @category   Laravel Excel
  * @version    1.0.0
- * @package    maatwebsite/excel
- * @copyright  Copyright (c) 2013 - 2014 Maatwebsite (http://www.maatwebsite.nl)
- * @author     Maatwebsite <info@maatwebsite.nl>
+ * @package    bhargavaaaa/excel
+ * @copyright  Copyright (c) 2013 - 2014 Bhargavaaaa (http://www.bhargavaaaa.nl)
+ * @author     Bhargavaaaa <info@bhargavaaaa.nl>
  * @license    http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt    LGPL
  */
 class Batch {

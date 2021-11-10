@@ -58,15 +58,15 @@ return array(
     ],
 
     'properties' => [
-        'creator'        => 'Maatwebsite',
-        'lastModifiedBy' => 'Maatwebsite',
+        'creator'        => 'Bhargavaaaa',
+        'lastModifiedBy' => 'Bhargavaaaa',
         'title'          => 'Spreadsheet',
         'description'    => 'Default spreadsheet export',
         'subject'        => 'Spreadsheet export',
-        'keywords'       => 'maatwebsite, excel, export',
+        'keywords'       => 'bhargavaaaa, excel, export',
         'category'       => 'Excel',
-        'manager'        => 'Maatwebsite',
-        'company'        => 'Maatwebsite',
+        'manager'        => 'Bhargavaaaa',
+        'company'        => 'Bhargavaaaa',
     ],
 
     /*
@@ -106,7 +106,7 @@ return array(
     |
     */
 
-    'creator'    => 'Maatwebsite',
+    'creator'    => 'Bhargavaaaa',
 
     'csv'        => [
         /*
@@ -346,7 +346,7 @@ return array(
         */
 
         'registered' => [
-            'chunk' => 'Maatwebsite\Excel\Filters\ChunkReadFilter'
+            'chunk' => 'Bhargavaaaa\Excel\Filters\ChunkReadFilter'
         ],
 
         /*

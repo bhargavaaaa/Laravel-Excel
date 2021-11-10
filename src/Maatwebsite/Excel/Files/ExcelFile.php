@@ -1,8 +1,8 @@
-<?php namespace Maatwebsite\Excel\Files;
+<?php namespace Bhargavaaaa\Excel\Files;
 
 use Illuminate\Foundation\Application;
-use Maatwebsite\Excel\Excel;
-use Maatwebsite\Excel\Exceptions\LaravelExcelException;
+use Bhargavaaaa\Excel\Excel;
+use Bhargavaaaa\Excel\Exceptions\LaravelExcelException;
 
 abstract class ExcelFile extends File {
 
@@ -76,7 +76,7 @@ abstract class ExcelFile extends File {
 
     /**
      * Load the file
-     * @return \Maatwebsite\Excel\Readers\LaravelExcelReader
+     * @return \Bhargavaaaa\Excel\Readers\LaravelExcelReader
      */
     public function loadFile()
     {

@@ -1,4 +1,4 @@
-<?php namespace Maatwebsite\Excel\Filters;
+<?php namespace Bhargavaaaa\Excel\Filters;
 
 use PHPExcel_Reader_IReadFilter;
 

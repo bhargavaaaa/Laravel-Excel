@@ -1,18 +1,18 @@
-<?php namespace Maatwebsite\Excel;
+<?php namespace Bhargavaaaa\Excel;
 
 use PHPExcel_Settings;
 use PHPExcel_Shared_Font;
-use Maatwebsite\Excel\Readers\Html;
-use Maatwebsite\Excel\Classes\Cache;
-use Maatwebsite\Excel\Classes\PHPExcel;
+use Bhargavaaaa\Excel\Readers\Html;
+use Bhargavaaaa\Excel\Classes\Cache;
+use Bhargavaaaa\Excel\Classes\PHPExcel;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Response;
-use Maatwebsite\Excel\Parsers\CssParser;
-use Maatwebsite\Excel\Parsers\ViewParser;
-use Maatwebsite\Excel\Classes\FormatIdentifier;
-use Maatwebsite\Excel\Readers\LaravelExcelReader;
-use Maatwebsite\Excel\Writers\LaravelExcelWriter;
+use Bhargavaaaa\Excel\Parsers\CssParser;
+use Bhargavaaaa\Excel\Parsers\ViewParser;
+use Bhargavaaaa\Excel\Classes\FormatIdentifier;
+use Bhargavaaaa\Excel\Readers\LaravelExcelReader;
+use Bhargavaaaa\Excel\Writers\LaravelExcelWriter;
 use TijsVerkoyen\CssToInlineStyles\CssToInlineStyles;
 use Laravel\Lumen\Application as LumenApplication;
 
@@ -21,9 +21,9 @@ use Laravel\Lumen\Application as LumenApplication;
  * LaravelExcel Excel ServiceProvider
  *
  * @category   Laravel Excel
- * @package    maatwebsite/excel
- * @copyright  Copyright (c) 2013 - 2014 Maatwebsite (http://www.maatwebsite.nl)
- * @author     Maatwebsite <info@maatwebsite.nl>
+ * @package    bhargavaaaa/excel
+ * @copyright  Copyright (c) 2013 - 2014 Bhargavaaaa (http://www.bhargavaaaa.nl)
+ * @author     Bhargavaaaa <info@bhargavaaaa.nl>
  * @license    http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt    LGPL
  */
 class ExcelServiceProvider extends ServiceProvider {

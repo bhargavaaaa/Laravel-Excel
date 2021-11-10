@@ -1,18 +1,18 @@
-<?php namespace Maatwebsite\Excel\Parsers;
+<?php namespace Bhargavaaaa\Excel\Parsers;
 
 use Carbon\Carbon;
-use Maatwebsite\Excel\Classes\LaravelExcelWorksheet;
-use Maatwebsite\Excel\Classes\PHPExcel;
-use Maatwebsite\Excel\Readers\LaravelExcelReader;
+use Bhargavaaaa\Excel\Classes\LaravelExcelWorksheet;
+use Bhargavaaaa\Excel\Classes\PHPExcel;
+use Bhargavaaaa\Excel\Readers\LaravelExcelReader;
 use PHPExcel_Cell;
 use PHPExcel_Exception;
 use PHPExcel_Shared_Date;
 use Illuminate\Support\Str;
 use PHPExcel_Style_NumberFormat;
-use Maatwebsite\Excel\Collections\RowCollection;
-use Maatwebsite\Excel\Collections\CellCollection;
-use Maatwebsite\Excel\Collections\SheetCollection;
-use Maatwebsite\Excel\Exceptions\LaravelExcelException;
+use Bhargavaaaa\Excel\Collections\RowCollection;
+use Bhargavaaaa\Excel\Collections\CellCollection;
+use Bhargavaaaa\Excel\Collections\SheetCollection;
+use Bhargavaaaa\Excel\Exceptions\LaravelExcelException;
 
 /**
  *
@@ -20,9 +20,9 @@ use Maatwebsite\Excel\Exceptions\LaravelExcelException;
  *
  * @category   Laravel Excel
  * @version    1.0.0
- * @package    maatwebsite/excel
- * @copyright  Copyright (c) 2013 - 2014 Maatwebsite (http://www.maatwebsite.nl)
- * @author     Maatwebsite <info@maatwebsite.nl>
+ * @package    bhargavaaaa/excel
+ * @copyright  Copyright (c) 2013 - 2014 Bhargavaaaa (http://www.bhargavaaaa.nl)
+ * @author     Bhargavaaaa <info@bhargavaaaa.nl>
  * @license    http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt    LGPL
  */
 class ExcelParser {

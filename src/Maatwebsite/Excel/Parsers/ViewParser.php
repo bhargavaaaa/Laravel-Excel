@@ -1,6 +1,6 @@
-<?php namespace Maatwebsite\Excel\Parsers;
+<?php namespace Bhargavaaaa\Excel\Parsers;
 
-use Maatwebsite\Excel\Readers\Html;
+use Bhargavaaaa\Excel\Readers\Html;
 use Illuminate\Support\Facades\View;
 
 /**
@@ -9,9 +9,9 @@ use Illuminate\Support\Facades\View;
  *
  * @category   Laravel Excel
  * @version    1.0.0
- * @package    maatwebsite/excel
- * @copyright  Copyright (c) 2013 - 2014 Maatwebsite (http://www.maatwebsite.nl)
- * @author     Maatwebsite <info@maatwebsite.nl>
+ * @package    bhargavaaaa/excel
+ * @copyright  Copyright (c) 2013 - 2014 Bhargavaaaa (http://www.bhargavaaaa.nl)
+ * @author     Bhargavaaaa <info@bhargavaaaa.nl>
  * @license    http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt    LGPL
  */
 class ViewParser {
@@ -37,7 +37,7 @@ class ViewParser {
     /**
      * Construct the view parser
      * @param Html $reader
-     * @return \Maatwebsite\Excel\Parsers\ViewParser
+     * @return \Bhargavaaaa\Excel\Parsers\ViewParser
      */
     public function __construct(Html $reader)
     {
@@ -46,8 +46,8 @@ class ViewParser {
 
     /**
      * Parse the view
-     * @param  \Maatwebsite\Excel\Classes\LaravelExcelWorksheet $sheet
-     * @return \Maatwebsite\Excel\Classes\LaravelExcelWorksheet
+     * @param  \Bhargavaaaa\Excel\Classes\LaravelExcelWorksheet $sheet
+     * @return \Bhargavaaaa\Excel\Classes\LaravelExcelWorksheet
      */
     public function parse($sheet)
     {
@@ -58,9 +58,9 @@ class ViewParser {
 
     /**
      * Load the HTML
-     * @param  \Maatwebsite\Excel\Classes\LaravelExcelWorksheet $sheet
+     * @param  \Bhargavaaaa\Excel\Classes\LaravelExcelWorksheet $sheet
      * @param  string                                           $html
-     * @return \Maatwebsite\Excel\Classes\LaravelExcelWorksheet
+     * @return \Bhargavaaaa\Excel\Classes\LaravelExcelWorksheet
      */
     protected function _loadHTML($sheet, $html)
     {

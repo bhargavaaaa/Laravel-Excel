@@ -1,7 +1,7 @@
-<?php namespace Maatwebsite\Excel\Files;
+<?php namespace Bhargavaaaa\Excel\Files;
 
 use Illuminate\Foundation\Application;
-use Maatwebsite\Excel\Excel;
+use Bhargavaaaa\Excel\Excel;
 
 abstract class NewExcelFile extends File {
 
@@ -34,7 +34,7 @@ abstract class NewExcelFile extends File {
 
     /**
      * Load the file
-     * @return \Maatwebsite\Excel\Readers\LaravelExcelReader
+     * @return \Bhargavaaaa\Excel\Readers\LaravelExcelReader
      */
     public function createNewFile()
     {

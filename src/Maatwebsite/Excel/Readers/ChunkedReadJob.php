@@ -1,10 +1,10 @@
 <?php
 
-namespace Maatwebsite\Excel\Readers;
+namespace Bhargavaaaa\Excel\Readers;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
-use Maatwebsite\Excel\Filters\ChunkReadFilter;
+use Bhargavaaaa\Excel\Filters\ChunkReadFilter;
 use SuperClosure\Serializer;
 
 class ChunkedReadJob implements ShouldQueue

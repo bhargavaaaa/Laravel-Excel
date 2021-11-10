@@ -1,11 +1,11 @@
 {
   "providers": [
-    "Maatwebsite\\Excel\\ExcelServiceProvider"
+    "Bhargavaaaa\\Excel\\ExcelServiceProvider"
   ],
   "aliases": [
     {
       "alias": "Excel",
-      "facade": "Maatwebsite\\Excel\\Facades\\Excel"
+      "facade": "Bhargavaaaa\\Excel\\Facades\\Excel"
     }
   ]
 }
